@@ -1,0 +1,23 @@
+# Ignore bloat
+.DS_Store
+.idea
+*.log
+tmp/
+
+# Ignore JS generated files
+*.tern-port
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
+.npm
+.eslintcache
+
+# Ignore TS transpiled files
+bin/
+
+# Ignore sensitive files
+.token
+.akitaneru.js
+ormconfig.js

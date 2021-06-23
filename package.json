@@ -1,0 +1,28 @@
+{
+  "name": "kanna_kobayashi",
+  "version": "5.0.0-alpha",
+  "main": "bin/index.js",
+  "repository": "git@github.com:Hydractify/kanna_kobayashi.git",
+  "contributors": [
+    "Alexandre Cavalheiro <wizardlink@hydractify.org>",
+    "SpaceEEC <space@hydractify.org>"
+  ],
+  "license": "MPL-2.0",
+  "private": true,
+  "dependencies": {
+    "akita_neru": "^0.0.1-alpha",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.4",
+    "@types/ws": "^7.4.2",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "eslint": "^7.25.0",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "build": "tsc -p ./",
+    "lint": "eslint --ext .ts ./src"
+  }
+}
